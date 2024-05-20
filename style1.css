@@ -1,0 +1,180 @@
+@keyframes pulse {
+    0% { background-color: rgb(240, 210, 41); }
+    25% { background-color: white; }
+    50% { background-color: rgb(100, 149, 237); }
+    75% { background-color: white; }
+    100% { background-color: rgb(240, 210, 41); }
+}
+
+body,.roof1,.roof2,.block1,.block2{
+    animation: pulse 5s infinite;
+}
+.home{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 500px;
+    left: 800px;
+}
+.roof1 {
+    background-color: rgb(240, 210, 41);
+    width: 117px;
+    height: 350px;
+    position: absolute;
+    top: 350px;
+    left: 800px; 
+    transform: rotate(45deg);
+}
+
+.roof2 {
+    background-color: rgb(240, 210, 41);
+    width: 122px;
+    height: 350px;
+    position: absolute; 
+    top: 350px;
+    left: 985px; 
+    transform: rotate(-45deg);
+}
+.roof3 {
+    background-color: blue;
+    width: 10px;
+    height: 230px;
+    position: absolute; 
+    top: 471px;
+    left: 868px; 
+    transform: rotate(45deg);
+    z-index: 2;
+}
+.roof4 {
+    background-color: blue;
+    width: 10px;
+    height: 230px;
+    position: absolute; 
+    top: 471px;
+    left: 1023px; 
+    transform: rotate(-45deg);
+    z-index: 2;
+}
+.windows{
+    background-color: rgb(131, 228, 252);
+    width: 90px;
+    height: 120px;
+    position: absolute; 
+    left: 830px;
+    top: 700px;
+    z-index: 1;
+}
+.stick1{
+    background-color: rgba(128, 128, 128, 0.521);
+    width: 2px;
+    height: 120px;
+    position: absolute;
+    left: 872.5px;
+    top: 700px;
+    z-index: 1;
+}
+.stick2{
+    background-color: rgba(128, 128, 128, 0.521);
+    width: 90px;
+    height: 2px;
+    position: absolute;
+    left: 830px;
+    top: 760px;
+    z-index: 1;
+}
+.stick3{
+    background-color: blue;
+    width: 90px;
+    height: 8px;
+    position: absolute;
+    left: 830px;
+    top: 700px;
+    z-index: 1;
+}
+.door{
+    background-color: blue;
+    width: 90px;
+    height: 160px;
+    position: absolute;
+    left: 970px;
+    top: 740px;
+    z-index: 1;
+}
+.circle{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    left: 1040px;
+    top: 820px;
+    z-index: 1;
+}
+.bush1{
+    background-color: green;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    border-radius: 50%;
+    left: 790px;
+    top: 840px;
+    z-index: 1;
+}
+.bush2{
+    background-color: green;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 50%;
+    left: 860px;
+    top: 850px;
+    z-index: 1;
+}
+.bush3{
+    background-color: green;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 50%;
+    left: 900px;
+    top: 860px;
+    z-index: 1;
+}
+.block1{
+    background-color: rgb(240, 210, 41);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 700px;
+    top: 800px;
+    z-index: 1;
+}
+.block2{
+    background-color: rgb(240, 210, 41);
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 780px;
+    top: 900px;
+    z-index: 1;
+}
+.chimney{
+    background-color: blue;
+    width: 40px;
+    height: 75px;
+    position: absolute;
+    left: 810px;
+    top: 570px;
+    z-index: 1;
+}
+.block3{
+    background-color: white;
+    width: 40px;
+    height: 75px;
+    position: absolute;
+    left: 840px;
+    top: 595px;
+    z-index: 1;
+    transform: rotate(45deg);
+}
